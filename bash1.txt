@@ -1,0 +1,24 @@
+cd
+pwd
+mkdir test1
+cd test1
+touch 1
+touch 2
+touch 3
+ls
+cd
+mkdir test2
+rmdir test2
+rm test1/2
+mkdir test3
+touch test3/1
+touch test3/2
+rm -R test3
+mkdir test4
+mv test1/1
+mv test1/3
+nano test4/1
+cat test4/1
+nano test4/3
+cat test4/1 test4/3
+nano test4/1
